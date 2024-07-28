@@ -10,7 +10,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/images/minilogo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ 
 
   <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
 
 </head>
 
@@ -35,18 +35,20 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
      
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/images/logo.png" alt="">
+      <a href="index.php" class="logo d-flex align-items-center me-auto">
+       <div>
+         <img src="assets/img/images/logo.png" alt="">
+</div>
         <h1 class="sitename"></h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="">Home</a></li>
-          <li><a href="index.html#about">Sobre</a></li>
-          <li><a href="index.html#features">Adote</a></li>
-          <li><a href="index.html#pricing">Contribua</a></li>
-          <li><a href="index.html#contact">Contatos</a></li>
+          <li><a href="index.php#hero" class="">Home</a></li>
+          <li><a href="index.php#about">Sobre</a></li>
+          <li><a href="index.php#features">Adote</a></li>
+          <li><a href="index.php#pricing">Contribua</a></li>
+          <li><a href="index.php#contact">Contatos</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -81,8 +83,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Lina</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/lina.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
@@ -90,8 +92,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Nick</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/nick.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
@@ -99,8 +101,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Toddy</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/toddy.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
@@ -108,8 +110,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Dino</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/dino.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
@@ -117,8 +119,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Garfield</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/garfield.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
@@ -126,35 +128,35 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Jack</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/jack.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
          
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="700">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Baunilha</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/baunilha.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="800">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Alo</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/alo.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="900">
             <div class="Adoption-item position-relative">
               <div>
-                <h3>Kenai</h3>
-                <a href="Adoption-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                <img src="assets/img/images/kenai.png" alt="">
+                <a href="Adoption-details.html" class="read-more stretched-link"></a>
               </div>
             </div>
           </div><!-- End Adoption Item -->
@@ -173,7 +175,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <span class="sitename">Adote um Vira Lata</span>
           </a>
           <div class="footer-contact pt-3">
